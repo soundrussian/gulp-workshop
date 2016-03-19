@@ -17,6 +17,16 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^2.2.2"
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6",
+    "lightbox2": "^2.8.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
   }
 }
